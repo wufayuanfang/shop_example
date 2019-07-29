@@ -1,0 +1,24 @@
+1.MVC架构
+
+
+ 1)模型Model--->com.ly16.domai(数据模型、领域模型)  com.ly16.dao(持久层) com.ly16.service(业务模型)
+ 
+ 2)视图View (com.ly16.view)--->表示层（前台）
+ 
+ 
+ 3)控制器Controller--->None
+ 
+ 
+ 2.Controller作用：前后端分离、服务器与客户端分离，接触耦合性
+ 
+ view<-->Controller<-->service<-->DAO<--->DB
+ 
+ 小项目：view--->C1  view--->c2
+ 
+ 实际应用：view-->C  view2--->c  view3--->c   C可能出现单点故障/性能，C-->分派N个秘书工作
+ 
+ 3.数据处理模式
+ 1）批处理模式（Hadoop-->MapReduce）
+ 2）实时处理模式（Spark：微批处理 Storm Flink一行记录）
+ 
+ 4.实时订单入总库
