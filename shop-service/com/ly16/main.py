@@ -12,7 +12,7 @@ import traceback
 
 
 def show_Main_View(pros, users, orders, sign):
-    print("####################神州通联在线商城######################")
+    print("####################XXXX在线商城######################")
     print("选择操作：1.前台购物 2.后台管理 3.退出系统 4.回到登录")
     try:
         operation = int(input())
